@@ -1,3 +1,7 @@
 curl "http://162.55.220.72:5005/get_method?name=Egor&age=28" 
 
 
+
+1)pwd
+
+
