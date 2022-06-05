@@ -28,11 +28,11 @@ git add new.json
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 
 {
-        "First name": "Egor",
-	"Last name": "Beluga",
-        "age": "28",
-        "number of pets": "0",
-        "future desired salary": "Negotiable"
+        "First_name":"Egor",
+	"Last_name":"Beluga",
+        "age":"28",
+        "number_of_pets":"0",
+        "future_desired salary":"Negotiable"
 }
 
  11. Отправить изменения на внешний репозиторий.
