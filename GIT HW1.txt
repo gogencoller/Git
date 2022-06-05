@@ -30,9 +30,9 @@ git add new.json
 {
         "First_name":"Egor",
 	"Last_name":"Beluga",
-        "age":"28",
-        "number_of_pets":"0",
-        "future_desired salary":"Negotiable"
+        "age":28,
+        "number_of_pets":0,
+        "future_desired_salary":"Negotiable"
 }
 
  11. Отправить изменения на внешний репозиторий.
