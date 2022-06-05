@@ -11,18 +11,358 @@ git clone link
  
  6. Внутри локального JSON создать файл “new.json”.
 
+touch new.json
 
  7. Добавить файл под гит.
+
+git add new.json
+
  8. Закоммитить файл.
+ 
+ git commit -m "new json file"
+ 
  9. Отправить файл на внешний GitHub репозиторий.
+ 
+ git push
+ 
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+{
+        "First name": "Egor",
+	"Last name": "Beluga",
+        "age": "28",
+        "number of pets": "0",
+        "future desired salary": "Negotiable"
+}
+
  11. Отправить изменения на внешний репозиторий.
+
+gid commit -am " add code"
+git push
+
  12. Создать файл preferences.json
+
+touch preferences.json
+
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
+vim preferences.json
+
+{
+	"Favourite TV show": "Love Death + Robots",
+	"Fovourite movie": "Lost River",
+	"Fovourite food": "Lobster roll",
+	"Favorite time of year": "Summer",
+	"Сountry you would like to visit": "Japan"
+}
+
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
+touch skills.json
+vim skills.json
+
  15. Отправить сразу 2 файла на внешний репозиторий.
+
+git add preferences.json skills.json
+git commit -m " 2 new files"
+git push
+
  16. На веб интерфейсе создать файл bug_report.json.
+
+Add file > bugreport.json
+
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit new file
+
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 
+ {
+    "BugReport" : [
+      "Summary": "Menu:error, at the entrance",
+      "Type": "Bug",
+      "Priority": "Medium", 
+      "Severity": "Major",
+      "AffectsVersion": 1.0, 
+      "Enviroment": "Windows 10 , Google Crome 98",
+      "Description": [
+      "FirstStep": "Open web-site",
+      "SecondStep": "pass autorization",
+      "ThirdStep": "Press the button Menu",
+      "FourthStep": "Pay attention to the screen",
+      "ExpectedResult": "Press the button Menu and see categories of products",
+      "Result": "Press button Menu and see error"
+      ],
+      "Status": "Open",
+      "Typeofbug": "Functional"
+  ]
+}
+
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 
+ Commit and save
+
  20. Синхронизировать внешний и локальный репозиторий JSON
+ 
+ git fetch
+ git pull
+ 
+ XML
+
+ 21. Создать внешний репозиторий c названием XML.
+ 
+ Add new
+ 
+ 22. Клонировать репозиторий XML на локальный компьютер.
+ 
+ git clone
+
+ 23. Внутри локального XML создать файл “new.xml”.
+ 
+ touch new.xml
+ 
+ 24. Добавить файл под гит.
+ 
+ git add
+
+ 25. Закоммитить файл.
+ 
+ git commit -m ""
+ 
+ 26. Отправить файл на внешний GitHub репозиторий.
+ 
+ git push
+ 
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+    <item>
+        <key>First Name</key>
+        <value>Egor</value>
+    </item>
+    <item>
+        <key>Last Name</key>
+        <value>Beluga</value>
+    </item>
+    <item>
+        <key>age</key>
+        <value>28</value>
+    </item>
+    <item>
+        <key>number of pets</key>
+        <value>0</value>
+    </item>
+    <item>
+        <key>future desired salary</key>
+        <value>Negotiable</value>
+    </item>
+</root>
+
+ 28. Отправить изменения на внешний репозиторий.
+
+git commit -am ""
+git push
+
+ 29. Создать файл preferences.xml
+
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+vim preferences.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+    <item>
+        <key>Favourite TV show</key>
+        <value>Love Death + Robots</value>
+    </item>
+    <item>
+        <key>Fovourite movie</key>
+        <value>Lost River</value>
+    </item>
+    <item>
+        <key>Fovourite food</key>
+        <value>Lobster roll</value>
+    </item>
+    <item>
+        <key>Favorite time of years</key>
+        <value>Summer</value>
+    </item>
+    <item>
+        <key>"Plase you would like to visit"</key>
+        <value>Japan</value>
+    </item>
+</root>
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+touch skills.xml
+vim skills.xml
+
+ 32. Сделать коммит в одну строку.
+
+git add .
+git commit -m ""
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+
+Add new file bug_report.xml
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Add commit
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+    <item>
+        <key>Type</key>
+        <value>bug_report</value>
+    </item>
+    <item>
+        <key>Priority</key>
+        <value>Medium</value>
+    </item>
+    <item>
+        <key>Severenity</key>
+        <value>Major</value>
+    </item>
+    <item>
+        <key>Description</key>
+        <value>"SecondStep": "pass autorization",
+      "ThirdStep": "Press the button Menu",
+      "FourthStep": "Pay attention to the screen",
+      "ExpectedResult": "Press the button Menu and see categories of products",
+      "Result": "Press button Menu and see error"</value>
+    </item>
+    <item>
+        <key>Status</key>
+        <value>Open</value>
+    </item> 
+    <item>
+        <key>Typeofbug</key>
+        <value>Functional</value>  
+    </item>
+</root>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Add commit
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+
+git fetch
+git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+
+add new
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+
+git clone
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+
+touch new.txt
+
+ 4. Добавить файл под гит.
+
+git add new.txt
+
+ 5. Закоммитить файл.
+
+git commit -m ""
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+
+"First name": "Egor";
+"Last name": "Beluga";
+"age": "28";
+"number of pets": "0";
+"future desired salary": "Negotiable";
+
+ 8. Отправить изменения на внешний репозиторий.
+
+git add new.txt
+git commit -m ""
+
+ 9. Создать файл preferences.txt
+
+touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+Favourite TV show: Love Death + Robots;
+Fovourite movie Lost River;
+Fovourite food: Lobster roll;
+Favorite time of year: Summer;
+Plase you would like to visit: Japan;
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+touch skills.txt
+vim skills.txt
+Skills: How and when to use TXT;
+
+ 12. Сделать коммит в одну строку.
+
+git commit -am "new files"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+
+add new
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+add commit
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+Edit file;
+
+BugReport : Summary: Menu:error, at the entrance;
+
+      Type: Bug,
+      Priority: Medium, 
+      Severity: Major,
+      AffectsVersion: 1.0, 
+      Enviroment: "Windows 10 , Google Crome 98;
+      
+      Description:
+        FirstStep: Open web-site,
+        SecondStep: pass autorization,
+        ThirdStep: Press the button Menu,
+        FourthStep: Pay attention to the screen,
+      ExpectedResult: Press the button Menu and see categories of products,
+      Result: Press button Menu and see error,
+      Status: Open,
+      Typeofbug: Functional
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+add commit
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+
+git fetch
+git pull
