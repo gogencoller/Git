@@ -1,0 +1,11 @@
+  Структура баг репорта:
+1. Title;
+2. Project;
+3. Version;
+4. Severity;
+5. Priority;
+6. Status;
+7. Author;
+8. Assigned To;
+9. Description;
+10. Attachment;
