@@ -48,5 +48,4 @@ git push
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 
-git status
-git push / git fetch , git pull - если требуется 
+git pull
