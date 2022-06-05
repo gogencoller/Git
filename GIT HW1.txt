@@ -49,11 +49,11 @@ touch preferences.json
 vim preferences.json
 
 {
-	"Favourite TV show": "Love Death + Robots",
-	"Fovourite movie": "Lost River",
-	"Fovourite food": "Lobster roll",
-	"Favorite time of year": "Summer",
-	"Сountry you would like to visit": "Japan"
+	"Favourite_TV_show":"Love Death + Robots",
+	"Fovourite_movie":"Lost River",
+	"Fovourite_food": "Lobster roll",
+	"Favorite_time_of_year":"Summer",
+	"Сountry_you_would_like_to_visit":"Japan"
 }
 
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
